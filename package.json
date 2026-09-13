@@ -1,0 +1,35 @@
+{
+  "name": "simplevision2-heavy",
+  "version": "1.0.0",
+  "description": "Enhanced image analysis using Moondream2 with custom prompting",
+  "main": "simplevision2.py",
+  "bin": {
+    "simplevision2": "simplevision2.py"
+  },
+  "scripts": {
+    "install": "sudo cp simplevision2.py /usr/local/bin/simplevision2",
+    "uninstall": "sudo rm -f /usr/local/bin/simplevision2",
+    "test": "python3 -m py_compile simplevision2.py"
+  },
+  "keywords": [
+    "vision",
+    "ai",
+    "image",
+    "analysis",
+    "moondream",
+    "transformers",
+    "llm"
+  ],
+  "author": "HAZE STUDIOS",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
