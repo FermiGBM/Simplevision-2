@@ -1,4 +1,4 @@
-# simplevision2 - Enhanced Image Analysis with Moondream2
+# Simplevision 2 - Enhanced Image Analysis with Moondream2
 
 A powerful Python tool for detailed image analysis using Moondream2, an advanced multimodal AI model. Supports custom prompting and GPU acceleration for enhanced performance.
 
